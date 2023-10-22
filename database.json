@@ -28,15 +28,15 @@
     {
       "id": 6,
       "name": "Groomers",
-      "imageUrl": "https://static.vecteezy.com/system/resources/previews/010/303/230/original/grooming-accessories-dog-color-icon-illustration-vector.jpg"
+      "imageUrl": "https://i.imgur.com/TGV9W8G.png"
     }
   ],
-  "places": [
+  "locations": [
     {
       "id": 1,
       "name": "Central Park",
       "address": "123 Main Street",
-      "phoneNumber": "555-1234",
+      "phoneNumber": "800-555-1234",
       "website": "https://www.centralpark.com",
       "offeredServices": [
         "Dog Walking",
@@ -45,33 +45,42 @@
         "Pet Events"
       ],
       "categoryId": 1,
-      "userId": 1
+      "userId": 1,
+      "cityId": 1
     },
     {
       "id": 2,
       "name": "PetCare Vet Clinic",
       "address": "456 Elm Street",
-      "phoneNumber": "555-5678",
+      "phoneNumber": "800-555-5678",
       "website": "https://www.petcarevetclinic.com",
-      "offeredServices": ["Vaccinations", "Surgery"],
+      "offeredServices": [
+        "Vaccinations",
+        "Surgery"
+      ],
       "categoryId": 2,
-      "userId": 2
+      "userId": 2,
+      "cityId": 2
     },
     {
       "id": 3,
       "name": "Paw Paradise Boarding",
       "address": "789 Oak Avenue",
-      "phoneNumber": "555-9876",
+      "phoneNumber": "800-555-9876",
       "website": "https://www.pawparadiseboarding.com",
-      "offeredServices": ["Boarding", "Playtime"],
+      "offeredServices": [
+        "Boarding",
+        "Playtime"
+      ],
       "categoryId": 3,
-      "userId": 3
+      "userId": 3,
+      "cityId": 3
     },
     {
       "id": 4,
       "name": "Pet Haven Store",
       "address": "101 Pine Road",
-      "phoneNumber": "555-4321",
+      "phoneNumber": "800-555-4321",
       "website": "https://www.pethavenstore.com",
       "offeredServices": [
         "Pet Supplies",
@@ -80,23 +89,28 @@
         "Training Classes"
       ],
       "categoryId": 4,
-      "userId": 4
+      "userId": 4,
+      "cityId": 4
     },
     {
       "id": 5,
       "name": "Bark & Bite Bakery",
       "address": "321 Cedar Lane",
-      "phoneNumber": "555-8765",
+      "phoneNumber": "800-555-8765",
       "website": "https://www.barkandbitebakery.com",
-      "offeredServices": ["Fresh Treats", "Custom Cakes"],
+      "offeredServices": [
+        "Fresh Treats",
+        "Custom Cakes"
+      ],
       "categoryId": 5,
-      "userId": 5
+      "userId": 5,
+      "cityId": 5
     },
     {
       "id": 6,
       "name": "Fluffy Friends Grooming",
       "address": "654 Maple Drive",
-      "phoneNumber": "555-3456",
+      "phoneNumber": "800-555-3456",
       "website": "https://www.fluffyfriendsgrooming.com",
       "offeredServices": [
         "Bathing",
@@ -105,33 +119,39 @@
         "Teeth Cleaning"
       ],
       "categoryId": 6,
-      "userId": 6
+      "userId": 6,
+      "cityId": 6
     },
     {
       "id": 7,
       "name": "Green Park",
       "address": "234 Oak Street",
-      "phoneNumber": "555-2345",
+      "phoneNumber": "800-555-2345",
       "website": "https://www.greenpark.com",
       "offeredServices": "",
       "categoryId": 1,
-      "userId": 7
+      "userId": 7,
+      "cityId": 7
     },
     {
       "id": 8,
       "name": "City Vet Hospital",
       "address": "567 Pine Avenue",
-      "phoneNumber": "555-6543",
+      "phoneNumber": "800-555-6543",
       "website": "https://www.cityvethospital.com",
-      "offeredServices": ["Checkups", "Dental Care"],
+      "offeredServices": [
+        "Checkups",
+        "Dental Care"
+      ],
       "categoryId": 2,
-      "userId": 8
+      "userId": 8,
+      "cityId": 8
     },
     {
       "id": 9,
       "name": "Happy Tails Kennel",
       "address": "876 Cedar Road",
-      "phoneNumber": "555-7890",
+      "phoneNumber": "800-555-7890",
       "website": "https://www.happytailskennel.com",
       "offeredServices": [
         "Dog Boarding",
@@ -140,23 +160,28 @@
         "Playgroups"
       ],
       "categoryId": 3,
-      "userId": 9
+      "userId": 9,
+      "cityId": 9
     },
     {
       "id": 10,
       "name": "Pet Palace",
       "address": "432 Elm Lane",
-      "phoneNumber": "555-5432",
+      "phoneNumber": "800-555-5432",
       "website": "https://www.petpalace.com",
-      "offeredServices": ["Pet Food", "Toys"],
+      "offeredServices": [
+        "Pet Food",
+        "Toys"
+      ],
       "categoryId": 4,
-      "userId": 10
+      "userId": 10,
+      "cityId": 10
     },
     {
       "id": 11,
       "name": "Woof & Whiskers",
       "address": "111 Birch Street",
-      "phoneNumber": "555-8765",
+      "phoneNumber": "800-555-8765",
       "website": "https://www.woofandwhiskers.com",
       "offeredServices": [
         "Dog Grooming",
@@ -164,44 +189,54 @@
         "Pet Accessories",
         "Spa Treatments"
       ],
-      "categoryId": 5,
-      "userId": 1
+      "categoryId": 6,
+      "userId": 1,
+      "cityId": 11
     },
     {
       "id": 12,
       "name": "Fur-tastic Spa",
       "address": "789 Maple Avenue",
-      "phoneNumber": "555-9876",
+      "phoneNumber": "800-555-9876",
       "website": "https://www.furtasticspa.com",
-      "offeredServices": ["Spa Treatments", "Nail Trims"],
+      "offeredServices": [
+        "Spa Treatments",
+        "Nail Trims"
+      ],
       "categoryId": 6,
-      "userId": 2
+      "userId": 2,
+      "cityId": 12
     },
     {
       "id": 13,
       "name": "Riverside Park",
       "address": "555 Willow Lane",
-      "phoneNumber": "555-7654",
+      "phoneNumber": "800-555-7654",
       "website": "https://www.riversidepark.com",
       "offeredServices": "",
       "categoryId": 1,
-      "userId": 3
+      "userId": 3,
+      "cityId": 13
     },
     {
       "id": 14,
       "name": "Animal Care Clinic",
       "address": "777 Oak Road",
-      "phoneNumber": "555-8765",
+      "phoneNumber": "800-555-8765",
       "website": "https://www.animalcareclinic.com",
-      "offeredServices": ["Emergency Care", "X-rays"],
+      "offeredServices": [
+        "Emergency Care",
+        "X-rays"
+      ],
       "categoryId": 2,
-      "userId": 4
+      "userId": 4,
+      "cityId": 14
     },
     {
       "id": 15,
       "name": "Paws & Play Kennel",
       "address": "999 Cedar Avenue",
-      "phoneNumber": "555-6543",
+      "phoneNumber": "800-555-6543",
       "website": "https://www.pawsandplaykennel.com",
       "offeredServices": [
         "Dog Playgroups",
@@ -210,67 +245,536 @@
         "Grooming"
       ],
       "categoryId": 3,
-      "userId": 5
+      "userId": 5,
+      "cityId": 15
     },
     {
       "id": 16,
       "name": "Pet Paradise Store",
       "address": "222 Elm Street",
-      "phoneNumber": "555-1234",
+      "phoneNumber": "800-555-1234",
       "website": "https://www.petparadisestore.com",
-      "offeredServices": ["Pet Accessories", "Toys"],
+      "offeredServices": [
+        "Pet Accessories",
+        "Toys"
+      ],
       "categoryId": 4,
-      "userId": 6
+      "userId": 6,
+      "cityId": 1
     },
     {
       "id": 17,
       "name": "Veterinary Care Clinic",
       "address": "1234 Oak Lane",
-      "phoneNumber": "555-5678",
+      "phoneNumber": "800-555-5678",
       "website": "https://www.veterinarycareclinic.com",
-      "offeredServices": ["Routine Checkups", "Surgery", "Dental Care"],
+      "offeredServices": [
+        "Routine Checkups",
+        "Surgery",
+        "Dental Care"
+      ],
       "categoryId": 2,
-      "userId": 7
+      "userId": 7,
+      "cityId": 2
     },
     {
       "id": 18,
       "name": "Tails & Trails Grooming",
       "address": "444 Maple Road",
-      "phoneNumber": "555-2345",
+      "phoneNumber": "800-555-2345",
       "website": "https://www.tailsandtrailsgrooming.com",
-      "offeredServices": ["Dog Bathing", "Hair Styling"],
+      "offeredServices": [
+        "Dog Bathing",
+        "Hair Styling"
+      ],
       "categoryId": 6,
-      "userId": 8
+      "userId": 8,
+      "cityId": 3
     },
     {
       "id": 19,
       "name": "Happy Paws Pet Store",
       "address": "777 Dogwood Lane",
-      "phoneNumber": "555-3456",
+      "phoneNumber": "800-555-3456",
       "website": "https://www.happypawspetstore.com",
-      "offeredServices": ["Dog Food", "Toys"],
+      "offeredServices": [
+        "Dog Food",
+        "Toys"
+      ],
       "categoryId": 4,
-      "userId": 9
+      "userId": 9,
+      "cityId": 4
     },
     {
       "id": 20,
       "name": "Puppy Paradise Daycare",
       "address": "888 Bark Street",
-      "phoneNumber": "555-7890",
+      "phoneNumber": "800-555-7890",
       "website": "https://www.puppyparadisedaycare.com",
-      "offeredServices": ["Dog Daycare", "Training Classes"],
+      "offeredServices": [
+        "Dog Daycare",
+        "Training Classes"
+      ],
       "categoryId": 3,
-      "userId": 10
+      "userId": 10,
+      "cityId": 5
+    },
+    {
+      "id": 21,
+      "name": "Paws & Whiskers Bakery",
+      "address": "123 Oak Street",
+      "phoneNumber": "800-555-1234",
+      "website": "https://www.pawsandwhiskersbakery.com",
+      "offeredServices": [
+        "Dog Treats",
+        "Custom Cakes"
+      ],
+      "categoryId": 5,
+      "userId": 5,
+      "cityId": 6
+    },
+    {
+      "id": 22,
+      "name": "Barksville Biscuits",
+      "address": "456 Maple Avenue",
+      "phoneNumber": "800-555-5678",
+      "website": "https://www.barksvillebiscuits.com",
+      "offeredServices": [
+        "Gourmet Dog Treats",
+        "Pupcakes"
+      ],
+      "categoryId": 5,
+      "userId": 6,
+      "cityId": 7
+    },
+    {
+      "id": 23,
+      "name": "Windy City Woofs",
+      "address": "789 Breeze Avenue",
+      "phoneNumber": "800-555-9876",
+      "website": "https://www.windycitywoofs.com",
+      "offeredServices": [
+        "Dog Boarding",
+        "Play Time"
+      ],
+      "categoryId": 3,
+      "userId": 3,
+      "cityId": 3
+    },
+    {
+      "id": 24,
+      "name": "Golden Gate Kennels",
+      "address": "101 Bridge Road",
+      "phoneNumber": "800-555-4321",
+      "website": "https://www.goldengatekennels.com",
+      "offeredServices": [
+        "Pet Boarding",
+        "Pet Daycare"
+      ],
+      "categoryId": 3,
+      "userId": 4,
+      "cityId": 14
+    },
+    {
+      "id": 25,
+      "name": "Sunshine Pet Store",
+      "address": "246 Sunny Lane",
+      "phoneNumber": "800-555-2468",
+      "website": "https://www.sunshinepetstore.com",
+      "offeredServices": [
+        "Pet Supplies",
+        "Pet Food"
+      ],
+      "categoryId": 4,
+      "userId": 5,
+      "cityId": 2
+    },
+    {
+      "id": 26,
+      "name": "Emerald City Pet Bakery",
+      "address": "369 Emerald Way",
+      "phoneNumber": "800-555-3690",
+      "website": "https://www.emeraldcitypetbakery.com",
+      "offeredServices": [
+        "Pet Bakery",
+        "Treats"
+      ],
+      "categoryId": 5,
+      "userId": 6,
+      "cityId": 1
+    },
+    {
+      "id": 27,
+      "name": "Fur-tastic Spa",
+      "address": "555 Spa Lane",
+      "phoneNumber": "800-555-5555",
+      "website": "https://www.furtasticspa.com",
+      "offeredServices": [
+        "Spa Treatments",
+        "Nail Trims"
+      ],
+      "categoryId": 6,
+      "userId": 2,
+      "cityId": 10
+    },
+    {
+      "id": 28,
+      "name": "Pet Haven",
+      "address": "101 Pet Lane",
+      "phoneNumber": "800-555-1010",
+      "website": "https://www.pethaven.com",
+      "offeredServices": [
+        "Pet Boarding",
+        "Pet Sitting"
+      ],
+      "categoryId": 3,
+      "userId": 7,
+      "cityId": 11
+    },
+    {
+      "id": 29,
+      "name": "Barking Boutique",
+      "address": "222 Woof Avenue",
+      "phoneNumber": "800-555-2222",
+      "website": "https://www.barkingboutique.com",
+      "offeredServices": [
+        "Pet Accessories",
+        "Pet Clothing"
+      ],
+      "categoryId": 4,
+      "userId": 8,
+      "cityId": 12
+    },
+    {
+      "id": 30,
+      "name": "Nashville Pet Supplies",
+      "address": "333 Pet Street",
+      "phoneNumber": "800-555-3333",
+      "website": "https://www.sanfranciscopetsupplies.com",
+      "offeredServices": [
+        "Pet Supplies",
+        "Pet Food"
+      ],
+      "categoryId": 4,
+      "userId": 9,
+      "cityId": 4
+    },
+    {
+      "id": 31,
+      "name": "Doggy Den",
+      "address": "444 Tail Lane",
+      "phoneNumber": "800-555-4444",
+      "website": "https://www.doggydelight.com",
+      "offeredServices": [
+        "Dog Grooming"
+      ],
+      "categoryId": 6,
+      "userId": 10,
+      "cityId": 5
+    },
+    {
+      "id": 32,
+      "name": "Seattle Pet Store",
+      "address": "555 Paw Place",
+      "phoneNumber": "800-555-5555",
+      "website": "https://www.seattlepetstore.com",
+      "offeredServices": [
+        "Pet Supplies",
+        "Pet Toys"
+      ],
+      "categoryId": 4,
+      "userId": 11,
+      "cityId": 6
+    },
+    {
+      "id": 33,
+      "name": "Chicago Doggy Daycare",
+      "address": "666 Bark Street",
+      "phoneNumber": "800-555-6666",
+      "website": "https://www.chicagodoggydaycare.com",
+      "offeredServices": [
+        "Doggy Daycare",
+        "Training"
+      ],
+      "categoryId": 3,
+      "userId": 12,
+      "cityId": 3
+    },
+    {
+      "id": 34,
+      "name": "Phoenix Pet Palace",
+      "address": "777 Feather Road",
+      "phoneNumber": "800-555-7777",
+      "website": "https://www.phoenixpetpalace.com",
+      "offeredServices": [
+        "Pet Boarding",
+        "Pet Spa"
+      ],
+      "categoryId": 3,
+      "userId": 13,
+      "cityId": 12
+    },
+    {
+      "id": 35,
+      "name": "The Doggy Den",
+      "address": "101 Doggo Drive",
+      "phoneNumber": "800-555-1234",
+      "website": "https://www.doggyden.com",
+      "offeredServices": [
+        "Dog Boarding",
+        "Doggy Daycare"
+      ],
+      "categoryId": 3,
+      "userId": 13,
+      "cityId": 15
+    },
+    {
+      "id": 36,
+      "name": "Paws & Play Pet Resort",
+      "address": "123 Pet Paradise Road",
+      "phoneNumber": "800-555-1111",
+      "website": "https://www.pawsandplayresort.com",
+      "offeredServices": [
+        "Pet Boarding",
+        "Doggy Daycare"
+      ],
+      "categoryId": 3,
+      "userId": 14,
+      "cityId": 7
+    },
+    {
+      "id": 37,
+      "name": "Seattle Bark Park",
+      "address": "456 Bark Boulevard",
+      "phoneNumber": "800-555-2222",
+      "website": "https://www.seattlebarkpark.com",
+      "offeredServices": [
+        "Dog Park",
+        "Dog Training"
+      ],
+      "categoryId": 1,
+      "userId": 15,
+      "cityId": 6
+    },
+    {
+      "id": 38,
+      "name": "Buddy's Pet Boutique",
+      "address": "789 Paws Avenue",
+      "phoneNumber": "800-555-3333",
+      "website": "https://www.buddyspetboutique.com",
+      "offeredServices": [
+        "Pet Supplies",
+        "Pet Accessories"
+      ],
+      "categoryId": 4,
+      "userId": 14,
+      "cityId": 8
+    },
+    {
+      "id": 39,
+      "name": "Woofington Dog Spa",
+      "address": "101 Grooming Lane",
+      "phoneNumber": "800-555-4444",
+      "website": "https://www.woofingtonspa.com",
+      "offeredServices": [
+        "Dog Grooming",
+        "Spa Treatments"
+      ],
+      "categoryId": 6,
+      "userId": 13,
+      "cityId": 9
+    },
+    {
+      "id": 40,
+      "name": "Pet Haven Resort",
+      "address": "246 Paradise Road",
+      "phoneNumber": "800-555-5555",
+      "website": "https://www.pethavenresort.com",
+      "offeredServices": [
+        "Pet Boarding",
+        "Pet Spa"
+      ],
+      "categoryId": 3,
+      "userId": 12,
+      "cityId": 10
+    },
+    {
+      "id": 41,
+      "name": "Purr-fect Dog Cafe",
+      "address": "369 Woof Street",
+      "phoneNumber": "800-555-6666",
+      "website": "https://www.purrfectdogcafe.com",
+      "offeredServices": [
+        "Dog Cafe",
+        "Adoption Center"
+      ],
+      "categoryId": 5,
+      "userId": 11,
+      "cityId": 11
+    },
+    {
+      "id": 42,
+      "name": "Denver Dog Park",
+      "address": "444 Dogwood Lane",
+      "phoneNumber": "800-555-7777",
+      "website": "https://www.denverdogpark.com",
+      "offeredServices": [
+        "Dog Park",
+        "Dog Training"
+      ],
+      "categoryId": 1,
+      "userId": 10,
+      "cityId": 9
+    },
+    {
+      "id": 43,
+      "name": "Pet Palace Boutique",
+      "address": "555 Pet Plaza",
+      "phoneNumber": "800-555-8888",
+      "website": "https://www.petpalaceboutique.com",
+      "offeredServices": [
+        "Pet Supplies",
+        "Pet Accessories"
+      ],
+      "categoryId": 4,
+      "userId": 9,
+      "cityId": 13
+    },
+    {
+      "id": 44,
+      "name": "Dallas Doggy Spa",
+      "address": "777 Canine Circle",
+      "phoneNumber": "800-555-1234",
+      "website": "https://www.dallasdoggyspa.com",
+      "offeredServices": [
+        "Dog Grooming",
+        "Spa Treatments"
+      ],
+      "categoryId": 6,
+      "userId": 8,
+      "cityId": 11
+    },
+    {
+      "id": 45,
+      "name": "Hound Haven",
+      "address": "888 Hound Way",
+      "phoneNumber": "800-555-2345",
+      "website": "https://www.houstonhoundhaven.com",
+      "offeredServices": [
+        "Pet Boarding",
+        "Doggy Daycare"
+      ],
+      "categoryId": 3,
+      "userId": 7,
+      "cityId": 14
+    },
+    {
+      "id": 46,
+      "name": "Austin Animal Clinic",
+      "address": "999 Vet Lane",
+      "phoneNumber": "800-555-3456",
+      "website": "https://www.austinanimalclinic.com",
+      "offeredServices": [
+        "Veterinary Care",
+        "Pet Surgery"
+      ],
+      "categoryId": 2,
+      "userId": 6,
+      "cityId": 8
+    },
+    {
+      "id": 47,
+      "name": "Seattle Snuggle Spot",
+      "address": "123 Cuddle Court",
+      "phoneNumber": "800-555-4567",
+      "website": "https://www.seattlesnugglespot.com",
+      "offeredServices": [
+        "Pet Sitting",
+        "Doggy Daycare"
+      ],
+      "categoryId": 3,
+      "userId": 5,
+      "cityId": 6
+    },
+    {
+      "id": 48,
+      "name": "Miami Doggy Inn",
+      "address": "456 Paw Avenue",
+      "phoneNumber": "800-555-5678",
+      "website": "https://www.miamidoggydelight.com",
+      "offeredServices": [
+        "Dog Grooming",
+        "Doggy Daycare"
+      ],
+      "categoryId": 3,
+      "userId": 4,
+      "cityId": 5
+    },
+    {
+      "id": 49,
+      "name": "Doggy Delight",
+      "address": "789 Paw Street",
+      "phoneNumber": "800-555-6789",
+      "website": "https://www.orlandodoggydelight.com",
+      "offeredServices": [
+        "Homemade Dog Treats",
+        "Cakes"
+      ],
+      "categoryId": 5,
+      "userId": 3,
+      "cityId": 7
+    },
+    {
+      "id": 50,
+      "name": "Veterinary Care Center",
+      "address": "789 Pet Street",
+      "phoneNumber": "800-555-1111",
+      "website": "https://www.veterinarycarecenter.com",
+      "offeredServices": [
+        "Vaccinations",
+        "Pet Checkups"
+      ],
+      "categoryId": 2,
+      "userId": 13,
+      "cityId": 10
+    },
+    {
+      "id": 51,
+      "name": "Animal Hospital of the City",
+      "address": "456 Dog Avenue",
+      "phoneNumber": "800-555-2222",
+      "website": "https://www.animalhospitalcity.com",
+      "offeredServices": [
+        "Surgery",
+        "Dental Care"
+      ],
+      "categoryId": 2,
+      "userId": 14,
+      "cityId": 15
+    },
+    {
+      "id": 52,
+      "name": "Pet Wellness Clinic",
+      "address": "123 Animal Lane",
+      "phoneNumber": "800-555-3333",
+      "website": "https://www.petwellnessclinic.com",
+      "offeredServices": [
+        "Emergency Care",
+        "Spaying/Neutering"
+      ],
+      "categoryId": 2,
+      "userId": 15,
+      "cityId": 1
     }
   ],
   "reviews": [
     {
       "id": 1,
-      "rating": 5,
+      "rating": 4,
       "body": "I had an amazing experience at Central Park. It's a great place for dog walking, and the picnic areas are beautiful!",
-      "date": "2023-09-10",
+      "date": "2023-10-08",
       "userId": 1,
-      "placeId": 1
+      "locationId": 1
     },
     {
       "id": 2,
@@ -278,7 +782,7 @@
       "body": "Paw Paradise Boarding was a comfortable place for my dog during our vacation. They even have a playtime area!",
       "date": "2023-09-09",
       "userId": 2,
-      "placeId": 3
+      "locationId": 3
     },
     {
       "id": 3,
@@ -286,15 +790,15 @@
       "body": "Fluffy Friends Grooming always takes great care of my dog. The haircut and nail trimming were perfect!",
       "date": "2023-09-08",
       "userId": 3,
-      "placeId": 6
+      "locationId": 6
     },
     {
       "id": 4,
-      "rating": 4,
+      "rating": 5,
       "body": "Green Park is a lovely spot for dog owners. My pup enjoys running around there.",
-      "date": "2023-09-07",
+      "date": "2023-09-21",
       "userId": 4,
-      "placeId": 7
+      "locationId": 7
     },
     {
       "id": 5,
@@ -302,7 +806,7 @@
       "body": "The Veterinary Care Clinic provided excellent service during my pet's routine checkup.",
       "date": "2023-09-06",
       "userId": 5,
-      "placeId": 17
+      "locationId": 17
     },
     {
       "id": 6,
@@ -310,15 +814,15 @@
       "body": "Woof & Whiskers has a great selection of pet accessories. My cat loves the new toys!",
       "date": "2023-09-05",
       "userId": 1,
-      "placeId": 11
+      "locationId": 11
     },
     {
       "id": 7,
-      "rating": 5,
-      "body": "Riverside Park is the perfect place for a leisurely dog walk by the river. So peaceful!",
-      "date": "2023-09-04",
-      "userId": 2,
-      "placeId": 13
+      "rating": 2,
+      "body": "My visit to Riverside Park was unpleasant. The area was dirty, and I didn't feel safe walking my dog. Not recommended.",
+      "date": "2023-10-01",
+      "userId": 7,
+      "locationId": 13
     },
     {
       "id": 8,
@@ -326,7 +830,7 @@
       "body": "Animal Care Clinic provided prompt emergency care for my pet. Grateful for their help!",
       "date": "2023-09-03",
       "userId": 3,
-      "placeId": 14
+      "locationId": 14
     },
     {
       "id": 9,
@@ -334,7 +838,7 @@
       "body": "Paws & Play Kennel offers a fun experience for dogs. My pup loves the playgroups!",
       "date": "2023-09-02",
       "userId": 4,
-      "placeId": 15
+      "locationId": 15
     },
     {
       "id": 10,
@@ -342,15 +846,15 @@
       "body": "Pet Haven Store has a wide range of pet supplies. Found everything I needed!",
       "date": "2023-09-01",
       "userId": 5,
-      "placeId": 4
+      "locationId": 4
     },
     {
       "id": 11,
-      "rating": 5,
-      "body": "Happy Tails Kennel provided excellent dog boarding services. My dog returned happy and well-trained!",
-      "date": "2023-08-31",
-      "userId": 6,
-      "placeId": 9
+      "rating": 3,
+      "body": "I had a subpar experience at Happy Tails Kennel. The boarding facility seemed crowded, and my dog appeared stressed after the stay.",
+      "date": "2023-10-02",
+      "userId": 11,
+      "locationId": 9
     },
     {
       "id": 12,
@@ -358,7 +862,7 @@
       "body": "Tails & Trails Grooming did a fantastic job with my dog's grooming. He looks and smells amazing!",
       "date": "2023-08-30",
       "userId": 7,
-      "placeId": 18
+      "locationId": 18
     },
     {
       "id": 13,
@@ -366,7 +870,7 @@
       "body": "Happy Paws Pet Store is my go-to place for dog food and toys. Great selection!",
       "date": "2023-08-29",
       "userId": 8,
-      "placeId": 19
+      "locationId": 19
     },
     {
       "id": 14,
@@ -374,7 +878,7 @@
       "body": "Puppy Paradise Daycare is a lifesaver. My dog enjoys every day there with playtime and training!",
       "date": "2023-08-28",
       "userId": 9,
-      "placeId": 20
+      "locationId": 20
     },
     {
       "id": 15,
@@ -382,7 +886,7 @@
       "body": "The Veterinary Care Clinic provided excellent service during my pet's routine checkup.",
       "date": "2023-09-01",
       "userId": 10,
-      "placeId": 17
+      "locationId": 17
     },
     {
       "id": 16,
@@ -390,7 +894,7 @@
       "body": "Bark & Bite Bakery is a hidden gem for dog lovers. The treats are pawsitively delicious!",
       "date": "2023-08-27",
       "userId": 11,
-      "placeId": 5
+      "locationId": 5
     },
     {
       "id": 17,
@@ -398,15 +902,15 @@
       "body": "Paws & Play Kennel provided reliable dog boarding services. My furry friend had a great time!",
       "date": "2023-08-26",
       "userId": 12,
-      "placeId": 15
+      "locationId": 15
     },
     {
       "id": 18,
-      "rating": 5,
+      "rating": 4,
       "body": "Pet Paradise Store is a one-stop-shop for pet owners. I found everything I needed for my dog!",
-      "date": "2023-08-25",
+      "date": "2023-09-19",
       "userId": 13,
-      "placeId": 16
+      "locationId": 16
     },
     {
       "id": 19,
@@ -414,7 +918,7 @@
       "body": "I took my pet to City Vet Hospital for a routine checkup, and I was pleased with the service. The staff was knowledgeable, and the checkup was thorough. They also offered dental care services, which was a bonus. Overall, a good experience!",
       "date": "2023-09-16",
       "userId": 5,
-      "placeId": 8
+      "locationId": 8
     },
     {
       "id": 20,
@@ -422,7 +926,7 @@
       "body": "Fur-tastic Spa truly lives up to its name! My dog received a spa treatment that left them looking and feeling fabulous. The nail trim was a nice touch. I highly recommend their services!",
       "date": "2023-09-17",
       "userId": 6,
-      "placeId": 12
+      "locationId": 12
     },
     {
       "id": 21,
@@ -430,15 +934,15 @@
       "body": "Took my furry friend to Fur-tastic Spa for a spa day. The spa treatments were great, and the nail trim was much needed. My dog left relaxed and refreshed. Great place for pampering your pet!",
       "date": "2023-09-18",
       "userId": 7,
-      "placeId": 12
+      "locationId": 12
     },
     {
       "id": 22,
-      "rating": 5,
+      "rating": 4,
       "body": "Bark & Bite Bakery offers a delightful range of dog treats. My dog loves the fresh treats and custom cakes!",
-      "date": "2023-09-27",
+      "date": "2023-10-08",
       "userId": 1,
-      "placeId": 5
+      "locationId": 5
     },
     {
       "id": 23,
@@ -446,7 +950,7 @@
       "body": "Pet Palace is a fantastic place for pet owners. They have a wide selection of pet food and toys. I found everything I needed for my furry friend. The staff is friendly and helpful!",
       "date": "2023-09-19",
       "userId": 8,
-      "placeId": 10
+      "locationId": 10
     },
     {
       "id": 24,
@@ -454,23 +958,23 @@
       "body": "I had a wonderful experience at PetCare Vet Clinic. They provided excellent vaccinations for my pet, and the surgery went smoothly. The staff is caring and professional. Highly recommended!",
       "date": "2023-09-20",
       "userId": 9,
-      "placeId": 2
+      "locationId": 2
     },
     {
       "id": 25,
-      "rating": 4,
-      "body": "PetCare Vet Clinic is a reliable choice for pet healthcare. They administered vaccinations for my dog, and the surgery was successful. The clinic is well-equipped, and the veterinarians are knowledgeable.",
-      "date": "2023-09-21",
-      "userId": 10,
-      "placeId": 2
+      "rating": 3,
+      "body": "I visited PetCare Vet Clinic, and the experience was disappointing. The vaccinations felt rushed, and I had concerns about the surgery. Not the best experience.",
+      "date": "2023-09-30",
+      "userId": 3,
+      "locationId": 2
     },
     {
       "id": 26,
-      "rating": 4,
-      "body": "Riverside Park is a scenic spot for a dog walk. The river view is lovely, and it's a peaceful place to spend time with your furry friend.",
-      "date": "2023-09-22",
+      "rating": 3,
+      "body": "Riverside Park is a scenic spot for a dog walk. The river view is lovely, however the place isn't kept up well and there was a lot of trash.",
+      "date": "2023-09-21",
       "userId": 11,
-      "placeId": 13
+      "locationId": 13
     },
     {
       "id": 27,
@@ -478,7 +982,7 @@
       "body": "Animal Care Clinic provided top-notch care for my pet during an emergency. Their quick response and expertise saved the day!",
       "date": "2023-09-23",
       "userId": 12,
-      "placeId": 14
+      "locationId": 14
     },
     {
       "id": 28,
@@ -486,7 +990,7 @@
       "body": "Paws & Play Kennel is a reliable option for dog boarding. My dog had a great time with the playgroups and came back happy!",
       "date": "2023-09-24",
       "userId": 13,
-      "placeId": 15
+      "locationId": 15
     },
     {
       "id": 29,
@@ -494,7 +998,7 @@
       "body": "Pet Paradise Store is a pet owner's paradise. They have everything you need, from food to toys, and the staff is helpful!",
       "date": "2023-09-25",
       "userId": 14,
-      "placeId": 16
+      "locationId": 16
     },
     {
       "id": 30,
@@ -502,14 +1006,182 @@
       "body": "Happy Tails Kennel provided a safe and comfortable environment for my dog during boarding. The training sessions were beneficial!",
       "date": "2023-09-26",
       "userId": 15,
-      "placeId": 9
+      "locationId": 9
+    },
+    {
+      "id": 31,
+      "rating": 5,
+      "body": "Paws & Whiskers Bakery is a delightful place for dog lovers. Their dog treats are top-notch, and the custom cakes they offer are a hit at dog parties. Highly recommended!",
+      "date": "2023-10-03",
+      "userId": 9,
+      "locationId": 21
+    },
+    {
+      "id": 32,
+      "rating": 5,
+      "body": "Central Park is an urban gem! It's the perfect place for a leisurely stroll or a picnic. The lush greenery and peaceful atmosphere make it a must-visit.",
+      "date": "2023-09-25",
+      "userId": 6,
+      "locationId": 1
+    },
+    {
+      "id": 33,
+      "rating": 4,
+      "body": "Central Park offers a serene escape from the city's hustle and bustle. I enjoy spending quiet afternoons here, surrounded by nature.",
+      "date": "2023-09-26",
+      "userId": 9,
+      "locationId": 1
+    },
+    {
+      "id": 34,
+      "rating": 3,
+      "body": "Central Park is nice, but it can get overcrowded. It's a challenge finding a peaceful spot on weekends. Good for a quick visit.",
+      "date": "2023-09-27",
+      "userId": 11,
+      "locationId": 1
+    },
+    {
+      "id": 36,
+      "locationId": 38,
+      "userId": 2,
+      "rating": 5,
+      "body": "The best pet boutique in town. They have everything you need!",
+      "date": "2023-09-09"
+    },
+    {
+      "id": 37,
+      "locationId": 45,
+      "userId": 3,
+      "rating": 4,
+      "body": "Friendly staff and excellent grooming services.",
+      "date": "2023-09-08"
+    },
+    {
+      "id": 38,
+      "locationId": 24,
+      "userId": 4,
+      "rating": 5,
+      "body": "My dog had a blast at the doggy daycare. Highly recommend!",
+      "date": "2023-09-07"
+    },
+    {
+      "id": 39,
+      "locationId": 23,
+      "userId": 5,
+      "rating": 3,
+      "body": "The pet boarding was decent, but my pet seemed a bit anxious.",
+      "date": "2023-09-06"
+    },
+    {
+      "id": 40,
+      "locationId": 30,
+      "userId": 6,
+      "rating": 4,
+      "body": "Good selection of pet supplies, but prices are a bit high.",
+      "date": "2023-09-05"
+    },
+    {
+      "id": 41,
+      "locationId": 44,
+      "userId": 7,
+      "rating": 5,
+      "body": "Outstanding pet grooming services. My dog looks fabulous!",
+      "date": "2023-09-04"
+    },
+    {
+      "id": 42,
+      "locationId": 27,
+      "userId": 8,
+      "rating": 4,
+      "body": "Nice pet spa, but they could improve their waiting area.",
+      "date": "2023-09-03"
+    },
+    {
+      "id": 43,
+      "locationId": 42,
+      "userId": 9,
+      "rating": 5,
+      "body": "The dog park here is fantastic, and the trainers are great!",
+      "date": "2023-09-02"
+    },
+    {
+      "id": 44,
+      "locationId": 32,
+      "userId": 10,
+      "rating": 4,
+      "body": "A good place for pet accessories, but they need more variety.",
+      "date": "2023-09-01"
+    },
+    {
+      "id": 45,
+      "locationId": 41,
+      "userId": 11,
+      "rating": 5,
+      "body": "Wonderful dog cafe with adorable dogs available for adoption!",
+      "date": "2023-08-31"
+    },
+    {
+      "id": 46,
+      "locationId": 42,
+      "userId": 12,
+      "rating": 4,
+      "body": "Decent dog park with friendly dog owners. Good for socializing.",
+      "date": "2023-08-30"
+    },
+    {
+      "id": 47,
+      "locationId": 35,
+      "userId": 13,
+      "rating": 5,
+      "body": "My dog had a fantastic time at The Doggy Den. Highly recommended!",
+      "date": "2023-08-29"
+    },
+    {
+      "id": 48,
+      "locationId": 36,
+      "userId": 14,
+      "rating": 4,
+      "body": "Great pet resort with caring staff. My dog loves it here!",
+      "date": "2023-08-28"
+    },
+    {
+      "id": 49,
+      "locationId": 37,
+      "userId": 15,
+      "rating": 5,
+      "body": "Seattle Bark Park is a fun place for dogs. We enjoy the training sessions!",
+      "date": "2023-08-27"
+    },
+    {
+      "id": 50,
+      "locationId": 38,
+      "userId": 15,
+      "rating": 4,
+      "body": "Buddy's Pet Boutique has a good selection of pet supplies.",
+      "date": "2023-08-26"
+    },
+    {
+      "id": 51,
+      "locationId": 39,
+      "userId": 14,
+      "rating": 5,
+      "body": "Woofington Dog Spa provides excellent grooming services. My dog is pampered!",
+      "date": "2023-08-25"
+    },
+    {
+      "id": 52,
+      "locationId": 40,
+      "userId": 13,
+      "rating": 4,
+      "body": "Pet Haven Resort is a nice place for boarding, but they could improve their spa facilities.",
+      "date": "2023-08-24"
     }
   ],
   "users": [
     {
       "id": 1,
       "fullName": "Hermione Granger",
-      "email": "hermione@gryffindor.com",
+      "email": "hermione_granger@gryffindor.com",
       "dogBreed": "Shetland Sheepdog",
       "dogName": "Crookshanks",
       "dogUrl": "https://pm1.aminoapps.com/6451/cc734221b46933f842352903b28cd162f38f72e4_hq.jpg"
@@ -517,7 +1189,7 @@
     {
       "id": 2,
       "fullName": "Ron Weasley",
-      "email": "ron@gryffindor.com",
+      "email": "ron_weasley@gryffindor.com",
       "dogBreed": "Jack Russel",
       "dogName": "Scabbers",
       "dogUrl": "https://pm1.aminoapps.com/6451/b464d8e3834285f857c1866e56c3e78b66f8f9b3_hq.jpg"
@@ -525,7 +1197,7 @@
     {
       "id": 3,
       "fullName": "Harry Potter",
-      "email": "harry@gryffindor.com",
+      "email": "harry_potter@gryffindor.com",
       "dogBreed": "German Shepherd",
       "dogName": "Hedwig",
       "dogUrl": "https://pm1.aminoapps.com/6451/d041b4524a44f536cf0371ba0ce66eb0c8b24319_hq.jpg"
@@ -533,7 +1205,7 @@
     {
       "id": 4,
       "fullName": "Ginny Weasley",
-      "email": "ginny@gryffindor.com",
+      "email": "ginny_weasley@gryffindor.com",
       "dogBreed": "Cocker Spaniel",
       "dogName": "Errol",
       "dogUrl": "https://pm1.aminoapps.com/6451/be4500677d986218db532075128f6eddc07b8bdb_hq.jpg"
@@ -541,7 +1213,7 @@
     {
       "id": 5,
       "fullName": "Albus Dumbledore",
-      "email": "albus@gryffindor.com",
+      "email": "albus_dumbledore@gryffindor.com",
       "dogBreed": "Golden Retriever",
       "dogName": "Fawkes",
       "dogUrl": "https://www.vidavetcare.com/wp-content/uploads/sites/234/2022/04/golden-retriever-dog-breed-info.jpeg"
@@ -549,7 +1221,7 @@
     {
       "id": 6,
       "fullName": "Minerva McGonagall",
-      "email": "minerva@gryffindor.com",
+      "email": "minerva_mcgonagall@gryffindor.com",
       "dogBreed": "Dachshund",
       "dogName": "Lucy",
       "dogUrl": "https://www.poochandmutt.co.uk/cdn/shop/articles/download_11.jpg?v=1627313486"
@@ -557,15 +1229,15 @@
     {
       "id": 7,
       "fullName": "Severus Snape",
-      "email": "severus@slytherin.com",
+      "email": "severus_snape@slytherin.com",
       "dogBreed": "Beagle",
-      "dogName": "Prongs",
+      "dogName": "Prince",
       "dogUrl": "https://image.petmd.com/files/styles/978x550/public/2022-10/beagle-dog.jpg"
     },
     {
       "id": 8,
       "fullName": "Remus Lupin",
-      "email": "remus@gryffindor.com",
+      "email": "remus_lupin@gryffindor.com",
       "dogBreed": "Siberian Husky",
       "dogName": "Moony",
       "dogUrl": "https://cdn.britannica.com/84/232784-050-1769B477/Siberian-Husky-dog.jpg"
@@ -573,7 +1245,7 @@
     {
       "id": 9,
       "fullName": "Bellatrix Lestrange",
-      "email": "bellatrix@slytherin.com",
+      "email": "bellatrix_lestrange@slytherin.com",
       "dogBreed": "Boxer",
       "dogName": "Salazar",
       "dogUrl": "https://image.petmd.com/files/styles/863x625/public/2022-10/Boxer.jpeg"
@@ -581,15 +1253,15 @@
     {
       "id": 10,
       "fullName": "Nymphadora Tonks",
-      "email": "nymphadora@slytherin.com",
-      "dogBreed": "Golden Retriever",
+      "email": "nymphadora_tonks@slytherin.com",
+      "dogBreed": "Australian Shepherd",
       "dogName": "Nymph",
-      "dogUrl": "https://example.com/golden_retriever.jpg"
+      "dogUrl": "https://post.bark.co/wp-content/uploads/2022/05/iStock-493959677.jpg"
     },
     {
       "id": 11,
       "fullName": "Sirius Black",
-      "email": "sirius@gryffindor.com",
+      "email": "sirius_black@gryffindor.com",
       "dogBreed": "Scottish Deerhound",
       "dogName": "Padfoot",
       "dogUrl": "https://cdn.britannica.com/70/148370-050-87E4E987/Scottish-deerhound.jpg"
@@ -597,7 +1269,7 @@
     {
       "id": 12,
       "fullName": "Luna Lovegood",
-      "email": "luna@ravenclaw.com",
+      "email": "luna_lovegood@ravenclaw.com",
       "dogBreed": "Poodle",
       "dogName": "Pixie",
       "dogUrl": "https://pm1.aminoapps.com/6451/ca446e4dba26c2f440af9ea3dcaa3cdffa970c39_hq.jpg"
@@ -605,26 +1277,436 @@
     {
       "id": 13,
       "fullName": "Draco Malfoy",
-      "email": "draco@slytherin.com",
+      "email": "draco_malfoy@slytherin.com",
       "dogBreed": "Dalmatian",
-      "dogName": "Peeves",
+      "dogName": "Dobby",
       "dogUrl": "https://pm1.aminoapps.com/6451/79a162551db722b18ba6a843bf030f621e3741d1_hq.jpg"
     },
     {
       "id": 14,
       "fullName": "Neville Longbottom",
-      "email": "neville@gryffindor.com",
+      "email": "neville_longbottom@gryffindor.com",
       "dogBreed": "Staffordshire Bull Terrier",
       "dogName": "Trevor",
-      "dogUrl": "https://pm1.aminoapps.com/6451/029b72bc9f2fda65792714d63835e56bc7605625_hq.jpg"
+      "dogUrl": "https://i0.wp.com/www.wagpets.com/wp-content/uploads/2016/12/staffy.jpg?fit=1920%2C1200&ssl=1"
     },
     {
       "id": 15,
       "fullName": "Rubeus Hagrid",
-      "email": "hagrid@gryffindor.com",
+      "email": "rubeus_hagrid@gryffindor.com",
       "dogBreed": "Mastiff",
       "dogName": "Fang",
       "dogUrl": "https://www.thesun.co.uk/wp-content/uploads/2021/04/NINTCHDBPICT000643754997.jpg"
+    },
+    {
+      "email": "tricia_swift@k9.com",
+      "fullName": "Tricia Swift",
+      "id": 16
+    }
+  ],
+  "favorites": [
+    {
+      "id": 1,
+      "userId": 1,
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "locationId": 2
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "locationId": 3
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "locationId": 4
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "locationId": 5
+    },
+    {
+      "id": 6,
+      "userId": 6,
+      "locationId": 6
+    },
+    {
+      "id": 7,
+      "userId": 7,
+      "locationId": 7
+    },
+    {
+      "id": 8,
+      "userId": 8,
+      "locationId": 8
+    },
+    {
+      "id": 9,
+      "userId": 9,
+      "locationId": 9
+    },
+    {
+      "id": 10,
+      "userId": 10,
+      "locationId": 10
+    },
+    {
+      "id": 11,
+      "userId": 11,
+      "locationId": 11
+    },
+    {
+      "id": 12,
+      "userId": 12,
+      "locationId": 12
+    },
+    {
+      "id": 13,
+      "userId": 13,
+      "locationId": 13
+    },
+    {
+      "id": 14,
+      "userId": 14,
+      "locationId": 14
+    },
+    {
+      "id": 15,
+      "userId": 15,
+      "locationId": 15
+    },
+    {
+      "id": 17,
+      "userId": 2,
+      "locationId": 8
+    },
+    {
+      "id": 18,
+      "userId": 3,
+      "locationId": 12
+    },
+    {
+      "id": 19,
+      "userId": 4,
+      "locationId": 16
+    },
+    {
+      "id": 20,
+      "userId": 5,
+      "locationId": 20
+    },
+    {
+      "id": 21,
+      "userId": 6,
+      "locationId": 3
+    },
+    {
+      "id": 22,
+      "userId": 7,
+      "locationId": 7
+    },
+    {
+      "id": 23,
+      "userId": 8,
+      "locationId": 11
+    },
+    {
+      "id": 24,
+      "userId": 9,
+      "locationId": 15
+    },
+    {
+      "id": 25,
+      "userId": 10,
+      "locationId": 19
+    },
+    {
+      "id": 26,
+      "userId": 11,
+      "locationId": 1
+    },
+    {
+      "id": 27,
+      "userId": 12,
+      "locationId": 5
+    },
+    {
+      "id": 28,
+      "userId": 13,
+      "locationId": 9
+    },
+    {
+      "id": 29,
+      "userId": 14,
+      "locationId": 13
+    },
+    {
+      "id": 30,
+      "userId": 15,
+      "locationId": 17
+    },
+    {
+      "userId": 13,
+      "locationId": 18,
+      "id": 31
+    },
+    {
+      "userId": 13,
+      "locationId": 8,
+      "id": 32
+    },
+    {
+      "userId": 1,
+      "locationId": 2,
+      "id": 33
+    },
+    {
+      "userId": 1,
+      "locationId": 20,
+      "id": 34
+    },
+    {
+      "userId": 3,
+      "locationId": 1,
+      "id": 36
+    },
+    {
+      "userId": 3,
+      "locationId": 7,
+      "id": 37
+    },
+    {
+      "userId": 1,
+      "locationId": 5,
+      "id": 38
+    },
+    {
+      "userId": 1,
+      "locationId": 11,
+      "id": 39
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "comment": "Great review! I had a similar experience at this place.",
+      "date": "2023-09-15",
+      "userId": 7,
+      "reviewId": 1
+    },
+    {
+      "id": 2,
+      "comment": "I totally agree with your assessment. This place is fantastic!",
+      "date": "2023-09-16",
+      "userId": 8,
+      "reviewId": 1
+    },
+    {
+      "id": 3,
+      "comment": "Thanks for sharing your thoughts. I'll definitely check it out!",
+      "date": "2023-09-17",
+      "userId": 9,
+      "reviewId": 1
+    },
+    {
+      "id": 4,
+      "comment": "I had a different experience, but your review is well-written.",
+      "date": "2023-09-20",
+      "userId": 10,
+      "reviewId": 7
+    },
+    {
+      "id": 5,
+      "comment": "Sorry to hear about your bad experience. I hope it gets better next time!",
+      "date": "2023-09-21",
+      "userId": 11,
+      "reviewId": 7
+    },
+    {
+      "id": 6,
+      "comment": "I had a similar experience with this place. It's not my favorite.",
+      "date": "2023-09-22",
+      "userId": 12,
+      "reviewId": 3
+    },
+    {
+      "id": 7,
+      "comment": "I'm glad you had a positive experience. I had a great time there too!",
+      "date": "2023-09-25",
+      "userId": 13,
+      "reviewId": 4
+    },
+    {
+      "id": 8,
+      "comment": "I agree with your review. This place offers excellent services!",
+      "date": "2023-09-26",
+      "userId": 14,
+      "reviewId": 4
+    },
+    {
+      "id": 9,
+      "comment": "I had a similar experience at this place. It's a great choice!",
+      "date": "2023-09-28",
+      "userId": 15,
+      "reviewId": 5
+    },
+    {
+      "id": 11,
+      "comment": "I had a similar experience with this place. It's a hidden gem!",
+      "date": "2023-09-20",
+      "userId": 13,
+      "reviewId": 2
+    },
+    {
+      "id": 12,
+      "comment": "Thanks for your review. I'll definitely take my dog here.",
+      "date": "2023-10-02",
+      "userId": 14,
+      "reviewId": 2
+    },
+    {
+      "id": 13,
+      "comment": "I had a fantastic time at this place. Their services are top-notch!",
+      "date": "2023-10-02",
+      "userId": 15,
+      "reviewId": 8
+    },
+    {
+      "id": 14,
+      "comment": "Your review convinced me to give this place a try. Thanks for sharing!",
+      "date": "2023-10-03",
+      "userId": 1,
+      "reviewId": 8
+    },
+    {
+      "id": 15,
+      "comment": "I've been to this place too, and it's one of my favorites. Your review captured it perfectly!",
+      "date": "2023-10-03",
+      "userId": 2,
+      "reviewId": 8
+    },
+    {
+      "id": 16,
+      "comment": "My dogs love the playgroups as well!",
+      "date": "2023-09-21",
+      "userId": 3,
+      "reviewId": 9
+    },
+    {
+      "id": 17,
+      "comment": "Your review was very helpful. I'll consider this place for my pet's grooming.",
+      "date": "2023-10-03",
+      "userId": 4,
+      "reviewId": 10
+    },
+    {
+      "id": 18,
+      "comment": "I had a great time at this place too. Your review highlighted all the positive aspects!",
+      "date": "2023-10-03",
+      "userId": 5,
+      "reviewId": 10
+    },
+    {
+      "id": 19,
+      "comment": "I'm sorry you didn't have a good experience.",
+      "date": "2023-10-01",
+      "userId": 11,
+      "reviewId": 25
+    },
+    {
+      "comment": "It seems like this place needs to be cleaned more. I'm sorry your experience wasn't the best.",
+      "date": "2023-09-21",
+      "userId": 3,
+      "reviewId": 26,
+      "id": 20
+    },
+    {
+      "id": 21,
+      "comment": "Your review captures the essence of Central Park beautifully. It's truly a treasure in the city!",
+      "userId": 5,
+      "reviewId": 32,
+      "date": "2023-09-25"
+    },
+    {
+      "id": 23,
+      "comment": "I understand your point. Central Park's popularity can lead to crowds on weekends.",
+      "userId": 15,
+      "reviewId": 34,
+      "date": "2023-09-28"
+    },
+    {
+      "id": 24,
+      "comment": "Sometimes, it's best to visit Central Park during quieter hours to fully enjoy its charm.",
+      "userId": 12,
+      "reviewId": 34,
+      "date": "2023-09-29"
+    }
+  ],
+  "cities": [
+    {
+      "id": 1,
+      "name": "New York City"
+    },
+    {
+      "id": 2,
+      "name": "Los Angeles"
+    },
+    {
+      "id": 3,
+      "name": "Chicago"
+    },
+    {
+      "id": 4,
+      "name": "Nashville"
+    },
+    {
+      "id": 5,
+      "name": "Miami"
+    },
+    {
+      "id": 6,
+      "name": "Seattle"
+    },
+    {
+      "id": 7,
+      "name": "Boston"
+    },
+    {
+      "id": 8,
+      "name": "Austin"
+    },
+    {
+      "id": 9,
+      "name": "Denver"
+    },
+    {
+      "id": 10,
+      "name": "Atlanta"
+    },
+    {
+      "id": 11,
+      "name": "Dallas"
+    },
+    {
+      "id": 12,
+      "name": "Phoenix"
+    },
+    {
+      "id": 13,
+      "name": "Philadelphia"
+    },
+    {
+      "id": 14,
+      "name": "San Francisco"
+    },
+    {
+      "id": 15,
+      "name": "Portland"
     }
   ]
 }
